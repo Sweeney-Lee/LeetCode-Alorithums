@@ -1,3 +1,4 @@
+
 #  **[Two Sum：](https://leetcode.com/problems/two-sum/description/)**
 
 ### *Description:*
@@ -14,8 +15,7 @@
 ---
 
 
-
-### Script(Python):
+### Script `Python` :
 
 #### Mine:
 ```
@@ -39,7 +39,7 @@
 ___
 
                         
-#Best:
+#### Best:
 ```
     from collections import defaultdict
 
@@ -66,26 +66,17 @@ ___
                         return [i, nums_dict[other_num][0]]
 ```
 ___
-###### time: 6000ms VS ≈ 0ms
-___
+ 
+   VS    |  Mine   |  Best
+  ---   |  :--:    |  ---:
+time(ms)| 6000ms   |   ≈ 0ms
+space   |   /      |   / 
+
+
+---
 
 # conclude:
 1. Use the defaultdict reverse the index and value
 
-表头|表头|表头
----|:--:|---:
-内容|内容|内容
-内容|内容|内容
 
 
-```flow 
-st=>start: 注册印象笔记
-e=>end: 您可以使用markdown
-op1=>operation: 登录印象笔记
-op2=>operation: 购买并登录马克飞象
-cond=>condition: 是否已经购买并登录了马克飞象?
-
-st->op1->cond
-cond(yes)->e
-cond(no)->op2->e
-```
