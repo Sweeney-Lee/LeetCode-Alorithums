@@ -1,5 +1,6 @@
 ###### [Two Sum](https://leetcode.com/problems/two-sum/description/)
 ===
+### Description:
 >	Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
 >	You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -11,9 +12,10 @@
 >	Because nums[0] + nums[1] = 2 + 7 = 9,
 >	return [0, 1].
 ===
-### Script:
+### Script(Python):
 
 #Mine:
+```
     class Solution:
         def twoSum(self, nums, target):
             """
@@ -30,8 +32,13 @@
                         return result
 
             return []
+```
+___
+# time: 6000ms
+___
                         
 #Best:
+```
     from collections import defaultdict
 
     class Solution:
@@ -55,3 +62,11 @@
                             return [i, nums_dict[other_num][-1]]
                     else:
                         return [i, nums_dict[other_num][0]]
+```
+___
+# time: ≈ 0ms
+___
+
+---
+#conclude:
+1. Use the defaultdict
