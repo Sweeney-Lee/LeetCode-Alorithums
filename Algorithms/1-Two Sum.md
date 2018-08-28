@@ -66,11 +66,26 @@ ___
                         return [i, nums_dict[other_num][0]]
 ```
 ___
- 
-   VS    |  Mine   |  Best
-  ---   |  :--:    |  ---:
-time(ms)| 6000ms   |   ≈ 0ms
-space   |   /      |   / 
+
+
+<table>
+    <caption> Contrast </caption>
+  <tr>
+    <th>VS</th>
+    <th>Mine</th>
+    <th>Best</th>
+  </tr>
+    <tr>
+    <th>time(ms)</th>
+    <th>6000</th>
+    <th>≈ 0</th>
+  </tr>
+    <tr>
+    <th>space</th>
+    <th>/</th>
+    <th>/</th>
+  </tr>
+<table>
 
 
 ---
