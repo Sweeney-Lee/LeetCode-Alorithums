@@ -1,6 +1,4 @@
-
-
-<center> [![](./picture/LeetCode.png 'LeetCode')](https://leetcode.com/) </center>
+ [![](./picture/LeetCode.png 'LeetCode')](https://leetcode.com/) 
 ---
 >   [![](./picture//Algorithms.png 'Algorithms')](https://leetcode.com/problemset/algorithms/)
 

@@ -1,59 +1,25 @@
-# class Solution:
-#
-#     def new21Game( N, K, W):
-#
-#         if K == 0:
-#             return 1
-#
-#         Max = K - 1 + W
-#         alist = {}
-#         result = 0
-#         for i in range(Max, 0, -1):
-#             alist[i] = 0
-#             if i >= K:
-#                 if i > N:
-#                     alist[i] = 1
-#             else:
-#                 for m in range(1, W + 1):
-#                     alist[i] += alist[i + m] / W
-#         for i in range(1, W + 1):
-#             result += alist[i] /W
-#         return 1- result
-import functools
 class Solution:
+    def new21Game(self, N, K, W):
 
-    def new21Game(N, K, W):
-        if K == 0:
-            return 1
+        dp = [0.0] * (N + W + 1)
+        # dp[x] = the answer when Alice has x points
+        for k in range(K, N + 1):
+            dp[k] = 1.0
 
-        def get_Sum(alist):
-            result = 0
-            for i in alist:
-                result += alist[i] / W
-            return result
-        alist = [[0] for i in range(K+W  + 1)]
-        result = 0
+        S = min(N - K + 1, W)
+        # S = dp[k+1] + dp[k+2] + ... + dp[k+W]
+        for k in range(K - 1, -1, -1):
+            dp[k] = S / W
+            S += dp[k] - dp[k + W]
 
-        for i in range(K , K+W  + 1):
-            alist[i] = 0 if i > N else 1
+        return dp[0]
 
-        for i in range(K + 1):
-
-            first = get_Sum(alist)
-            alist.insert(0, first)
-            alist.pop()
-
-        result = get_Sum(alist)
-        return 1 - result
-
-a = Solution.new21Game(21,17,10)
-print(a)
-
-# li = [1, 2, 3, 4, 5]
-# a = 3
-# A = functools.reduce(lambda x, y, a: x * y + a , a, li)
-# print(A)
-# K = 3
-# W = 3
-# alist = [[0] for i in range(K + W + 1)]
-# print(alist)
+        """
+        he key recursion is f(x) = (1/W) * (f(x+1) + f(x+2) + ... + f(x+W))
+        This is because there is a probability of \frac{1}{W} to draw each card from 1 to W
+        """
+s = Solution()
+print(s.new21Game(N=10, K=1, W=10))
+# print(s.new21Game(N=6, K=1, W=10))
+# print(s.new21Game(N=21, K=17, W=10))
+# print(s.new21Game(N = 0, K = 0, W = 1))
