@@ -1,5 +1,5 @@
 
-#  **[ New 21 Game：](https://leetcode.com/problems/new-21-game/description/)**
+#  **[ 837.New 21 Game：](https://leetcode.com/problems/new-21-game/description/)**
 
 ### *Description:*
     Alice plays the following game, loosely based on the card game "21".
@@ -104,12 +104,6 @@ ___
     <th>time(ms)</th>
     <th>136</th>
     <th>80</th>
-  </tr>
-    <tr>
-    <th>space</th>
-    <th>/</th>
-    <th>/</th>
-  </tr>
 <table>
 
 ___

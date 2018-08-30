@@ -1,5 +1,5 @@
 
-#  **[Two Sum：](https://leetcode.com/problems/two-sum/description/)**
+#  **[1.Two Sum：](https://leetcode.com/problems/two-sum/description/)**
 
 ### *Description:*
 	Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -79,12 +79,6 @@ ___
     <th>time(ms)</th>
     <th>6000</th>
     <th>≈ 0</th>
-  </tr>
-    <tr>
-    <th>space</th>
-    <th>/</th>
-    <th>/</th>
-  </tr>
 <table>
 
 
