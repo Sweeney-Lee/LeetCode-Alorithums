@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4699cb95-7d4c-4f56-93ed-6497ebd881d7" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/62. Unique Paths.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/62. Unique Paths.md" afterDir="false" />
 =======
+=======
+>>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
       <change afterPath="$PROJECT_DIR$/Algorithms/215. Kth Largest Element in an Array.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/0-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/0-template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/1.Two Sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/1.Two Sum.md" afterDir="false" />
@@ -23,8 +24,7 @@
       <change beforePath="$PROJECT_DIR$/Algorithms/8. String to Integer (atoi).md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/8. String to Integer (atoi).md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/837.New 21 Game.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/837.New 21 Game.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/94. Binary Tree Inorder Traversal.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/94. Binary Tree Inorder Traversal.md" afterDir="false" />
->>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
-    </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,6 @@
     </session>
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.py">
@@ -86,7 +85,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="310">
                 <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-=======
     <leaf>
       <file leaf-file-name="215. Kth Largest Element in an Array.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/215. Kth Largest Element in an Array.md">
@@ -94,7 +92,8 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-895">
                 <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
->>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
+
+
               </first_editor>
               <second_editor />
             </state>
@@ -102,8 +101,7 @@
         </entry>
       </file>
     </leaf>
-<<<<<<< HEAD
-=======
+
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -112,7 +110,6 @@
     <replaceStrings>
       <replace>Tips:</replace>
     </replaceStrings>
->>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,8 +120,10 @@
         <option value="$PROJECT_DIR$/Algorithms/55. Jump Game.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/temp.py" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Algorithms/62. Unique Paths.md" />
+=======
+        <option value="$PROJECT_DIR$/Algorithms/215. Kth Largest Element in an Array.md" />
+>>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
 =======
         <option value="$PROJECT_DIR$/Algorithms/215. Kth Largest Element in an Array.md" />
 >>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
@@ -141,7 +140,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
     <option name="x" value="346" />
     <option name="y" value="74" />
     <option name="width" value="1390" />
@@ -160,12 +158,11 @@
         </selected-state>
       </profile-state>
     </entry>
-=======
+
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
->>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -262,7 +259,6 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -274,7 +270,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41953385" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-=======
+
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -294,7 +290,25 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
->>>>>>> e00982fdce31d9af4aa2ad44db2f32e51d293da1
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18565683" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -349,6 +363,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="310">
             <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+
           </first_editor>
           <second_editor />
         </state>
