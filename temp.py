@@ -1,22 +1,22 @@
-from bisect import bisect_left
 class Solution:
-    def lengthOfLIS(self, nums):
-        if not nums: return 0
-        dp = [0 for _ in range(len(nums))]
-        dp[0] = nums[0]
-        length = 1
-        for index in range(1, len(nums)):
-            num = nums[index]
-            if num < dp[0]:
-                dp[0] = num
-            elif num > dp[length-1]:
-                dp[length] = num
-                length += 1
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if not s:
+            return True
+        a = [s[0]]
+        i = 1
+        while i < len(s):
+            if s[i] in ['(', '{', '[']:
+                a.append(s[i])
+            elif len(a) >= 1 and ((s[i] == ')' and a[-1] == '(') or (s[i] == '}' and a[-1] == '{') or (s[i] == ']' and a[-1] == '[')):
+                    a.pop()
             else:
-                i = bisect_left(dp, num, 0, length)
-                dp[i] = num
-        return length
-
+                return False
+            i += 1
+        return True
 s = Solution()
-a = s.lengthOfLIS([10,9,2,5,3,7,101,18])
+a = s.isValid("{}][}}{[))){}{}){(}]))})[({")
 print(a)
